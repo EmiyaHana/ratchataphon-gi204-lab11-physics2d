@@ -14,7 +14,6 @@ public class Player2DController : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
     }
-
     void Update()
     {
         if (Keyboard.current != null)
@@ -22,8 +21,10 @@ public class Player2DController : MonoBehaviour
             moveValue = (Keyboard.current.dKey.isPressed ? 1 : 0) - (Keyboard.current.aKey.isPressed ? 1 : 0);
         }
         _rb.linearVelocity = new Vector2(moveValue * speed, _rb.linearVelocity.y);
+        if (moveValue < 0) { gameObject.GetComponent<SpriteRenderer>().flipX = true; }
+        else if (moveValue > 0) { gameObject.GetComponent<SpriteRenderer>().flipX = false; }
 
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (Keyboard.current.spaceKey.wasPressedThisFrame && _isGrounded)
         {
             _rb.AddForce(new Vector2(_rb.linearVelocity.x, jumpForce));
         }
