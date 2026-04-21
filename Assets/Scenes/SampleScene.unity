@@ -1366,6 +1366,7 @@ GameObject:
   - component: {fileID: 312765263}
   - component: {fileID: 312765262}
   - component: {fileID: 312765264}
+  - component: {fileID: 312765265}
   m_Layer: 0
   m_Name: Slope Right
   m_TagString: Ground
@@ -1490,6 +1491,24 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!252 &312765265
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312765261}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: -1
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &324086603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,6 +1804,7 @@ GameObject:
   - component: {fileID: 382959145}
   - component: {fileID: 382959144}
   - component: {fileID: 382959146}
+  - component: {fileID: 382959147}
   m_Layer: 0
   m_Name: Slope Left
   m_TagString: Ground
@@ -1909,6 +1929,24 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!252 &382959147
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382959143}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: -1
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &403032404
 GameObject:
   m_ObjectHideFlags: 0
@@ -3978,6 +4016,7 @@ GameObject:
   - component: {fileID: 971666539}
   - component: {fileID: 971666538}
   - component: {fileID: 971666540}
+  - component: {fileID: 971666541}
   m_Layer: 0
   m_Name: Slope Left (1)
   m_TagString: Ground
@@ -4102,6 +4141,24 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!252 &971666541
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971666537}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: -1
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &1010330171
 GameObject:
   m_ObjectHideFlags: 0
@@ -4891,7 +4948,7 @@ ConstantForce2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197961783}
   m_Enabled: 1
-  m_Force: {x: -2, y: 0}
+  m_Force: {x: -5, y: 7}
   m_RelativeForce: {x: 0, y: 0}
   m_Torque: 0
 --- !u!60 &1197961788
@@ -6937,6 +6994,7 @@ GameObject:
   - component: {fileID: 1747105218}
   - component: {fileID: 1747105217}
   - component: {fileID: 1747105219}
+  - component: {fileID: 1747105220}
   m_Layer: 0
   m_Name: Slope Right (1)
   m_TagString: Ground
@@ -7062,6 +7120,24 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!252 &1747105220
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747105216}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: -1
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &1748718709
 GameObject:
   m_ObjectHideFlags: 0
